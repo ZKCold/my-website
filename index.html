@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的个人网站</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="logo">MySite</div>
+        <ul class="nav-links">
+            <li><a href="#home">首页</a></li>
+            <li><a href="#about">关于我</a></li>
+            <li><a href="#projects">项目</a></li>
+            <li><a href="#contact">联系</a></li>
+        </ul>
+    </nav>
+
+    <!-- 首页横幅 -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>你好，我是<span class="highlight">嘉豪</span></h1>
+            <h2>希望我可以快速获取更多的<span class="highlight">Python知识</span></h2>
+            <p>Python 开发者 / 学习者 / 创造者</p>
+            <a href="#projects" class="btn">查看我的项目</a>
+        </div>
+    </section>
+
+    <!-- 关于我 -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>关于我</h2>
+            <p>我是一名正在学习 Python 编程的开发者，热衷于用代码解决实际问题。目前专注于 Web 开发、自动化脚本和数据分析方向，希望通过持续学习和实践不断提升自己的技术能力。</p>
+            <div class="skills">
+                <span class="skill-tag">Python</span>
+                <span class="skill-tag">HTML/CSS</span>
+                <span class="skill-tag">JavaScript</span>
+                <span class="skill-tag">Flask</span>
+                <span class="skill-tag">Git</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- 项目展示 -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>我的项目</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <h3>项目一：待办事项应用</h3>
+                    <p>使用 Python Flask 和 SQLite 构建的简单待办事项管理系统，支持增删改查功能。</p>
+                    <a href="#" class="project-link">查看详情 →</a>
+                </div>
+                <div class="project-card">
+                    <h3>项目二：天气查询工具</h3>
+                    <p>调用天气 API 实现的命令行天气查询工具，支持全国城市实时天气和未来预报。</p>
+                    <a href="#" class="project-link">查看详情 →</a>
+                </div>
+                <div class="project-card">
+                    <h3>项目三：个人博客系统</h3>
+                    <p>基于 Flask 和 Markdown 的轻量级博客系统，支持文章发布、分类和标签功能。</p>
+                    <a href="#" class="project-link">查看详情 →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 联系方式 -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>联系我</h2>
+            <p>有合作意向或想交流技术？欢迎通过以下方式联系我：</p>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <strong>邮箱</strong>
+                    <p>your-email@example.com</p>
+                </div>
+                <div class="contact-item">
+                    <strong>GitHub</strong>
+                    <p>github.com/your-username</p>
+                </div>
+                <div class="contact-item">
+                    <strong>微信</strong>
+                    <p>your-wechat-id</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <p>&copy; 2026 你的名字. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
